@@ -1,0 +1,26 @@
+name: TryCatchNserrorObjc
+options:
+  bundleIdPrefix: com.bleepingswift
+  deploymentTarget:
+    iOS: "26.0"
+  xcodeVersion: "26.2"
+  generateEmptyDirectories: true
+settings:
+  CLANG_ENABLE_MODULES: YES
+  CLANG_ENABLE_OBJC_ARC: YES
+  GCC_C_LANGUAGE_STANDARD: gnu11
+targets:
+  TryCatchNserrorObjc:
+    type: application
+    platform: iOS
+    sources:
+      - path: TryCatchNserrorObjc/Sources
+        excludes:
+          - "**/.DS_Store"
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.bleepingswift.trycatchnserrorobjc
+      GENERATE_INFOPLIST_FILE: true
+      INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: true
+      INFOPLIST_KEY_UILaunchStoryboardName: ""
+      INFOPLIST_KEY_UIMainStoryboardFile: ""
+      INFOPLIST_KEY_UIStatusBarHidden: false
