@@ -3,7 +3,7 @@ options:
   bundleIdPrefix: com.bleepingswift
   deploymentTarget:
     iOS: "26.0"
-  xcodeVersion: "26.2"
+  xcodeVersion: "27.1"
   generateEmptyDirectories: true
 settings:
   CLANG_ENABLE_MODULES: YES

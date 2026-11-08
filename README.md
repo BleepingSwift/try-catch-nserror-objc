@@ -1,12 +1,12 @@
 # TryCatchNserrorObjc
 
-Sample Objective-C code demonstrating Objective-C supports exception handling with @try/@catch, but the community settled on NSError pointers instead. Here's why..
+Sample Objective-C code demonstrating Objective-C has @try and @catch, but the community settled on NSError. Measured on Xcode 27.1: what exceptions leak, what they cost, and how to use NSError well..
 
 > This project accompanies the article: [Why Objective-C Has try-catch But Nobody Uses It](https://bleepingswift.com/blog/try-catch-nserror-objc)
 
 ## Requirements
 
-- Xcode 26.2+
+- Xcode 27.1+
 - iOS 26.0+
 
 ## Getting Started
@@ -21,12 +21,12 @@ Sample Objective-C code demonstrating Objective-C supports exception handling wi
 - **main.m**: Source file
 - **AppDelegate.h**: Source file
 - **AppDelegate.m**: Source file
-- **FileProcessor.h**: Source file
-- **FileProcessor.m**: Source file
-- **InputValidator.h**: Source file
-- **InputValidator.m**: Source file
-- **DemoResult.h**: Source file
-- **DemoResult.m**: Source file
+- **MyAppError.h**: Source file
+- **MyAppError.m**: Source file
+- **Tracker.h**: Source file
+- **Tracker.m**: Source file
+- **ErrorDemo.h**: Source file
+- **ErrorDemo.m**: Source file
 - **ViewController.h**: Source file
 - **ViewController.m**: Source file
 
